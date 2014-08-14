@@ -1,6 +1,6 @@
 #!/bin/sh
  
-ssh app@APP.SERVER.IP.ADDRESS <<EOF
+ssh app@178.62.178.65 <<EOF
   cd ~/hello-jenkins
   git pull
   npm install --production
